@@ -43,18 +43,19 @@ router.post("/upload", RPupload.single("image"), (req, res) => {
     return res.status(400).send('No file uploaded.');
   }
 
+  // File information can be accessed via req.file
   res.status(200).send({
     message: 'File uploaded successfully!',
     file: req.file
   });
 });
 
-//recipe creation
+// Create a recipe
 router.post("/create", createRecipe);
 
 router.post("/userRecipes", getAllRecipes);
 
-//categorizing them
+//fetch all recipes in a certain category
 router.get("/all", showallrecipes);
 
 router.get("/category/:category", getCategory);
