@@ -1,4 +1,4 @@
-import logo from "/logo.svg";
+import logo from "/reshot-icon-cooking-book-ZMGQ6L3CVN.svg";
 
 const Footer = () => {
   return (

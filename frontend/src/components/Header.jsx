@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Nav from "./Nav";
-import logo from "/logo.svg";
+import logo from "/reshot-icon-cooking-book-ZMGQ6L3CVN.svg";
 import { useAuth } from "../contexts/AuthContext";
 import { apiStart } from "../../api";
 import MobileNav from "./MobileNav";
