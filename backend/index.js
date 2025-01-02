@@ -12,13 +12,13 @@ app.use(express.static("public"));
 
 async function main() {
   await mongoose.connect(
-    "mongodb+srv://nusrat:eshop123@cluster0.5kg6b.mongodb.net/e-shop"
+    "mongodb+srv://nusratmahmudkhushbu:nusrat1234@cluster0.q2vnf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   );
 
   console.log("Mongodb Connected Successfully!");
 
   app.get("/", (req, res) => {
-    res.send("CookBook server is running:!");
+    res.send("Savoury Swap server is running:!");
   });
 
   //routes
@@ -36,3 +36,4 @@ async function main() {
 }
 
 main().catch((err) => console.log(err));
+
