@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="border-t mt-24 border-gray-300">
       <div className="mx-auto max-w-6xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
-          <div className="text-teal-600">
+          <div className="text-fuchsia-600">
             <img src={logo} alt="logo" className="h-14 w-auto" />
           </div>
 
@@ -36,7 +36,7 @@ const Footer = () => {
 
             <li>
               <a
-                href=""
+                href="https://www.instagram.com/_anika.b12_?igsh=MWtoMnQwN3Z4YjhpbQ=="
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
@@ -60,7 +60,7 @@ const Footer = () => {
 
             <li>
               <a
-                href=""
+                href="https://discord.com/users/879760799772573777"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
@@ -80,7 +80,7 @@ const Footer = () => {
 
             <li>
               <a
-                href=""
+                href="https://github.com/nusratmahmudkhushbu"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
@@ -104,7 +104,7 @@ const Footer = () => {
 
             <li>
               <a
-                href=""
+                href="https://dribbble.com/khushbu007"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
@@ -129,7 +129,7 @@ const Footer = () => {
         </div>
 
         <p className="text-xs text-gray-500 text-center">
-          &copy; 2022. Company Name. All rights reserved.
+          &copy; 2024. Savroy Swap. All rights reserved.
         </p>
       </div>
     </footer>
